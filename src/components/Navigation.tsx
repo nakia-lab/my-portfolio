@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Shield, BookOpen, Briefcase, Cpu } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { portfolioData } from '@/app/lib/portfolio-data';
 
 const navItems = [
   { label: 'About', href: '/', icon: Shield },
@@ -20,7 +21,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-headline font-bold text-xl group-hover:scale-110 transition-transform">
-            N
+            {portfolioData.name.charAt(0)}
           </div>
           <span className="font-headline font-bold text-lg hidden sm:inline-block tracking-tight uppercase">
             Nakia <span className="text-primary">Russell</span>

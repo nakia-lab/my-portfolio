@@ -1,4 +1,4 @@
-import { Cpu, Lock, Terminal, Wrench, Sparkles, ShieldAlert, Globe, Layout, ArrowLeft } from 'lucide-react';
+import { Cpu, Lock, Terminal, Wrench, Sparkles, ArrowLeft } from 'lucide-react';
 import { portfolioData } from '@/app/lib/portfolio-data';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
