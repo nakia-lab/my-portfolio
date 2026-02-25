@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Mail, Linkedin, Github, ArrowRight, ShieldCheck, Database, Target } from 'lucide-react';
+import { Mail, Linkedin, Github, ArrowRight, ShieldCheck, Database, Target, Sprout } from 'lucide-react';
 import ProfileUploader from '@/components/ProfileUploader';
 import { portfolioData } from '@/app/lib/portfolio-data';
 import { Badge } from '@/components/ui/badge';
@@ -81,6 +81,38 @@ export default function Home() {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Become a proficient Ethical Hacker, contributing to global security by identifying vulnerabilities and strengthening defense systems.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Growth & Maintenance Reflection */}
+      <section className="px-4">
+        <div className="container mx-auto max-w-5xl">
+          <div className="p-8 md:p-12 rounded-2xl bg-primary/5 border border-primary/20 space-y-6">
+            <div className="flex items-center gap-3 mb-2">
+              <Sprout className="w-8 h-8 text-primary" />
+              <h2 className="text-3xl font-headline font-bold">Growth & Maintenance</h2>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="md:col-span-1 space-y-4">
+                <div>
+                  <h3 className="text-sm font-bold uppercase tracking-widest text-primary mb-1">Most Frequent Updates</h3>
+                  <p className="text-foreground font-medium">{portfolioData.maintenanceReflection.sectionToUpdate}</p>
+                </div>
+                <div>
+                  <h3 className="text-sm font-bold uppercase tracking-widest text-primary mb-1">Why This Matters</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {portfolioData.maintenanceReflection.whyItMatters}
+                  </p>
+                </div>
+              </div>
+              <div className="md:col-span-2">
+                <h3 className="text-sm font-bold uppercase tracking-widest text-primary mb-2">Professional Reflection</h3>
+                <p className="text-lg text-foreground/90 italic leading-relaxed border-l-4 border-primary pl-6">
+                  "{portfolioData.maintenanceReflection.reflection}"
+                </p>
+              </div>
             </div>
           </div>
         </div>

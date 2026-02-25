@@ -4,6 +4,12 @@ export const portfolioData = {
   location: "USA",
   aboutMe: `I am an Associate-level cybersecurity and IT professional dedicated to safeguarding digital environments. My focus is on Data Protection, secure system integration, and operating within complex, compliance-driven infrastructures. With a background spanning healthcare operations and corporate inventory management, I bring a unique perspective on risk-aware operations and sensitive data handling. I am currently pursuing my degree at DeVry University and am motivated by the challenge of staying ahead of evolving threats. My short-term goal is to secure a remote, entry-level Cybersecurity position where I can contribute to defensive operations, while my long-term vision is to become a proficient Ethical Hacker.`,
   
+  maintenanceReflection: {
+    sectionToUpdate: "Projects Portfolio and Professional Certifications",
+    whyItMatters: "In the rapidly evolving landscape of cybersecurity, demonstrating continuous hands-on learning and adaptation is crucial. Regularly updating my project portfolio allows me to showcase my growing proficiency with new tools and defensive strategies, while my certifications prove my commitment to industry standards.",
+    reflection: "This portfolio is more than a static resume; it is a dynamic testament to my journey from a Medical Device Operations Technician to a Cybersecurity professional. As I transition into the digital frontier, maintaining this platform serves as a vital exercise in brand management and technical transparency. Each update represents a milestone in my education at DeVry and my personal growth, ensuring that my professional identity remains as secure and up-to-date as the systems I aim to protect."
+  },
+
   education: [
     {
       institution: "DeVry University",
