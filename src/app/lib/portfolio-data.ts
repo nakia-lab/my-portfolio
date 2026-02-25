@@ -17,7 +17,6 @@ export const portfolioData = {
         "IEEE Xtreme Programming Competition – Team Leader (2025)",
         "IEEE Member – Advancing Technology for Humanity (2025)",
         "IEEE Women in Engineering Membership (2026)",
-        "IEEE Woman",
         "NVIDIA Cosmos Cookoff Competition (2026)",
         "Student Player for the National Cyber League (NCL) Spring Season (2026)",
         "National Cyber League Member (2026)",

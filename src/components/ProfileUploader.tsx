@@ -55,7 +55,7 @@ export default function ProfileUploader() {
       ) : (
         <div className="flex flex-col items-center gap-2 text-muted-foreground">
           <User className="w-16 h-16" />
-          <span className="text-xs uppercase tracking-widest font-bold">Sentinel ID</span>
+          <span className="text-xs uppercase tracking-widest font-bold">Professional ID</span>
         </div>
       )}
 

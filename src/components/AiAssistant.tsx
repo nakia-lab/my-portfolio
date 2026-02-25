@@ -18,7 +18,7 @@ export default function AiAssistant() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: "Hello! I am Angelica, Nakia's AI assistant. Ask me anything about their cybersecurity background, projects, or technical skills." }
+    { role: 'assistant', content: "Hello! I am Angelica_AI, Nakia's AI assistant. Ask me anything about their cybersecurity background, projects, or technical skills." }
   ]);
   const [isLoading, setIsLoading] = useState(false);
 
