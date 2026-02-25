@@ -1,18 +1,27 @@
-import { Cpu, Lock, Terminal, Wrench, Sparkles, ShieldAlert, Globe, Layout } from 'lucide-react';
+import { Cpu, Lock, Terminal, Wrench, Sparkles, ShieldAlert, Globe, Layout, ArrowLeft } from 'lucide-react';
 import { portfolioData } from '@/app/lib/portfolio-data';
 import { Badge } from '@/components/ui/badge';
+import Link from 'next/link';
+import ScrollToTop from '@/components/ScrollToTop';
 
 export default function SkillsPage() {
   const { technical, tools, professional, aiSystems } = portfolioData.skills;
 
   return (
     <div className="container mx-auto px-4 py-16 space-y-24">
+      <ScrollToTop />
       <section className="space-y-12">
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold">Skills <span className="text-primary">& Matrix</span></h1>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A comprehensive overview of my technical expertise, tools, and professional soft skills, emphasizing my capabilities in modern AI integration and cybersecurity.
-          </p>
+        <div className="space-y-6">
+          <Link href="/" className="inline-flex items-center gap-2 text-primary hover:underline font-medium">
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </Link>
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl md:text-6xl font-headline font-bold">Skills <span className="text-primary">& Matrix</span></h1>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              A comprehensive overview of my technical expertise, tools, and professional soft skills, emphasizing my capabilities in modern AI integration and cybersecurity.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

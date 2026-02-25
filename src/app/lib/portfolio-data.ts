@@ -2,7 +2,7 @@ export const portfolioData = {
   name: "Nakia Russell",
   role: "Cybersecurity Analyst and IT Operations",
   location: "USA",
-  aboutMe: `I am a dedicated Cybersecurity Analyst and IT Operations professional with a sharp focus on Data Protection. Currently, I am advancing my expertise in secure systems, sensitive data protection, and operating within compliance-driven environments. My background spans access management, technical documentation, and risk-aware operations across healthcare and corporate settings. I am actively working toward a remote, entry-level position in Cybersecurity with a long-term aspiration to become an Ethical Hacker. I am motivated by the challenge of staying ahead of evolving threats and the responsibility of safeguarding critical information infrastructure.`,
+  aboutMe: `I am an Associate-level cybersecurity and IT professional dedicated to safeguarding digital environments. My focus is on Data Protection, secure system integration, and operating within complex, compliance-driven infrastructures. With a background spanning healthcare operations and corporate inventory management, I bring a unique perspective on risk-aware operations and sensitive data handling. I am currently pursuing my degree at DeVry University and am motivated by the challenge of staying ahead of evolving threats. My short-term goal is to secure a remote, entry-level Cybersecurity position where I can contribute to defensive operations, while my long-term vision is to become a proficient Ethical Hacker.`,
   
   education: [
     {
@@ -15,7 +15,12 @@ export const portfolioData = {
       achievements: [
         "Dean’s List (Spring, Summer, Fall/Winter 2025)",
         "IEEE Xtreme Programming Competition – Team Leader (2025)",
-        "IEEE Member – Advancing Technology for Humanity (2025)"
+        "IEEE Member – Advancing Technology for Humanity (2025)",
+        "IEEE Women in Engineering Membership (2026)",
+        "NVIDIA Cosmos Cookoff Competition (2026)",
+        "Student Player for the National Cyber League (NCL) Spring Season (2026)",
+        "National Cyber League Member (2026)",
+        "GE Aerospace’s 2026 L.I.F.T. Summit Event Student Member"
       ]
     }
   ],
@@ -32,7 +37,8 @@ export const portfolioData = {
     { name: "Technology Engineering Job Simulation", issuer: "Lloyds Banking Group", year: 2026 },
     { name: "Robotics and Controls Job Simulation", issuer: "Johnson & Johnson", year: 2026 },
     { name: "Data Analytics Job Simulation", issuer: "Tata Group", year: 2026 },
-    { name: "Sustainable Project Planning and Design", issuer: "WSP", year: 2026 }
+    { name: "Explore Engineering Virtual Experience", issuer: "GE Aerospace", year: 2026 },
+    { name: "Virtual Work Experience: Sustainable Project Planning and Design", issuer: "WSP", year: 2026 }
   ],
   
   workHistory: [
@@ -71,12 +77,24 @@ export const portfolioData = {
       "Cloud Fundamentals (Azure)",
       "HTML, CSS, JavaScript, Python (Foundational)",
       "Data Analysis (EDA)",
-      "Version Control (Git)"
+      "Version Control (Git)",
+      "Cisco Packet Tracer",
+      "WSL System"
     ],
     tools: [
       "Microsoft Excel",
       "Microsoft Word",
       "Microsoft Outlook",
+      "Power Point",
+      "Ollama",
+      "Jupiter notebook",
+      "Adobe Express Photo",
+      "Cursor",
+      "Visual Studio Code",
+      "Unity Hub",
+      "Visual Studio",
+      "Anaconda3(64-bit)",
+      "Slack",
       "GenAI Tools",
       "Hugging Face Frameworks",
       "Firebase Studio"
@@ -121,11 +139,11 @@ export const portfolioData = {
   
   projects: [
     {
-      title: "Secure AI Capstone",
+      title: "Enhanced Portfolio",
       purpose: "Designed and deployed an end-to-end AI solution integrating secure configuration practices into practical IT workflows.",
       tools: ["Firebase Studio", "Hugging Face", "Python", "Cloud Hosting"],
       skills: ["AI Integration", "Secure Deployment", "Prompt Engineering"],
-      link: "https://nakia264.wixsite.com/enhance"
+      link: "nakia264.wixsite.com/enhance"
     }
   ],
   

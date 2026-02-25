@@ -1,12 +1,15 @@
 import Link from 'next/link';
-import { Mail, Linkedin, Github, Gamepad2, ArrowRight, ShieldCheck, Database, Target } from 'lucide-react';
+import { Mail, Linkedin, Github, ArrowRight, ShieldCheck, Database, Target } from 'lucide-react';
 import ProfileUploader from '@/components/ProfileUploader';
 import { portfolioData } from '@/app/lib/portfolio-data';
 import { Badge } from '@/components/ui/badge';
+import ScrollToTop from '@/components/ScrollToTop';
+import DiscordButton from '@/components/DiscordButton';
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24 pb-20">
+      <ScrollToTop />
       {/* Hero Section */}
       <section className="relative pt-12 md:pt-24 px-4 overflow-hidden">
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-12">
@@ -121,15 +124,7 @@ export default function Home() {
               </div>
               <span className="font-medium">GitHub</span>
             </a>
-            <div 
-              className="p-6 rounded-xl bg-background border border-border hover:border-primary transition-all group flex flex-col items-center gap-3 cursor-pointer"
-              title={`Discord: ${portfolioData.contact.discord} (${portfolioData.contact.discordId})`}
-            >
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary transition-colors">
-                <Gamepad2 className="w-6 h-6 text-primary group-hover:text-primary-foreground" />
-              </div>
-              <span className="font-medium">Discord</span>
-            </div>
+            <DiscordButton discordId={portfolioData.contact.discordId} />
           </div>
         </div>
       </section>

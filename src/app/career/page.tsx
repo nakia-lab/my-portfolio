@@ -1,16 +1,25 @@
-import { Briefcase, Calendar, CheckCircle2, ExternalLink, Box } from 'lucide-react';
+import { Briefcase, Calendar, CheckCircle2, ExternalLink, Box, ArrowLeft } from 'lucide-react';
 import { portfolioData } from '@/app/lib/portfolio-data';
 import { Badge } from '@/components/ui/badge';
+import Link from 'next/link';
+import ScrollToTop from '@/components/ScrollToTop';
 
 export default function CareerPage() {
   return (
     <div className="container mx-auto px-4 py-16 space-y-24">
+      <ScrollToTop />
       <section className="space-y-12">
-        <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-headline font-bold">Professional Experience</h1>
-          <p className="text-muted-foreground text-lg max-w-2xl">
-            My career path has built a strong foundation in high-accuracy operations, sensitive equipment handling, and digital record maintenance within complex environments.
-          </p>
+        <div className="space-y-6">
+          <Link href="/" className="inline-flex items-center gap-2 text-primary hover:underline font-medium">
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </Link>
+          <div className="space-y-4">
+            <h1 className="text-4xl md:text-5xl font-headline font-bold">Professional Experience</h1>
+            <p className="text-muted-foreground text-lg max-w-2xl">
+              My career path has built a strong foundation in high-accuracy operations, sensitive equipment handling, and digital record maintenance within complex environments.
+            </p>
+          </div>
         </div>
 
         <div className="space-y-8 max-w-4xl">
