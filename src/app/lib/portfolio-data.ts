@@ -22,7 +22,7 @@ export const portfolioData = {
         "Dean’s List (Spring, Summer, Fall/Winter 2025)",
         "IEEE Xtreme Programming Competition – Team Leader (2025)",
         "IEEE Member – Advancing Technology for Humanity (2025)",
-        "IEEE Woman Member (2026)",
+        "IEEE Women in Engineering Membership (2026)",
         "NVIDIA Cosmos Cookoff Competition (2026)",
         "Student Player for the National Cyber League (NCL) Spring Season (2026)",
         "National Cyber League Member (2026)",
