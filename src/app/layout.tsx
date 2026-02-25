@@ -5,7 +5,7 @@ import AiAssistant from '@/components/AiAssistant';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Sentinel Stream Portfolio | Nakia Russell',
+  title: 'Nakia Russell | Professional Portfolio',
   description: 'Cybersecurity Analyst and IT Operations professional focusing on Data Protection and Ethical Hacking.',
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
         <AiAssistant />
         <Toaster />
         <footer className="py-8 border-t border-border/40 text-center text-muted-foreground text-sm">
-          <p>© {new Date().getFullYear()} Sentinel Stream Portfolio. Nakia Russell.</p>
+          <p>© {new Date().getFullYear()} Nakia Russell. All rights reserved.</p>
         </footer>
       </body>
     </html>

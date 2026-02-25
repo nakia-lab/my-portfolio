@@ -57,7 +57,7 @@ export default function AiAssistant() {
           <div className="p-4 bg-primary text-primary-foreground flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Bot className="w-5 h-5" />
-              <span className="font-headline font-medium">Angelica My AI Assistant</span>
+              <span className="font-headline font-medium">Angelica_AI</span>
             </div>
             <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="hover:bg-white/10 text-white">
               <X className="w-5 h-5" />

@@ -90,9 +90,6 @@ export default function EducationPage() {
                 <h3 className="font-headline font-bold text-lg leading-snug">{cert.name}</h3>
                 <p className="text-sm text-muted-foreground font-medium">{cert.issuer}</p>
               </div>
-              <div className="pt-2 flex items-center justify-between text-xs text-muted-foreground opacity-60">
-                <span className="uppercase tracking-widest font-bold">Credibility Verified</span>
-              </div>
             </div>
           ))}
         </div>
